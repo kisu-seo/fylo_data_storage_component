@@ -1,0 +1,143 @@
+html {
+    font-family: 'Raleway', serif, sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 375px;
+    margin: 0 auto;
+    background-image: url(../images/bg-mobile.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container_one {
+    width: 326px;
+    height: 201px;
+    background-color: #1e2d69;
+    border-radius: 10px 100px 10px 10px;
+    margin: 0 auto 16px;
+    ;
+}
+
+.image__container {
+    padding: 40px 0 0 41.43px;
+}
+
+.logo {
+    margin-bottom: 33px;
+}
+
+.icon__container {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.icon__container-document,
+.icon__container-folder,
+.icon__container-upload {
+    width: 48px;
+    height: 48px;
+    background-color: #0c122c;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_two {
+    width: 326px;
+    height: 160px;
+    background-color: #1e2d69;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.text__container {
+    padding: 32px 32px 0;
+    margin-bottom: 16px;
+}
+
+.text__container-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #dbd9ff;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.gage_container {
+    width: 260px;
+    height: 20px;
+    background-color: #0c122c;
+    border-radius: 10px;
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+}
+
+.gage_container-line {
+    width: 193px;
+    height: 14px;
+    background: linear-gradient(to right, #ffa197 0%, #ff4a95 100%);
+    border-radius: 10px;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.gage_container-line-circle {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.subtitle__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text__container-subtitle {
+    font-size: 12px;
+    color: #dbd9ff;
+}
+
+.container_three {
+    width: 179px;
+    height: 72px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.container_three p {
+    font-size: 12px;
+    color: rgba(12, 18, 44, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.span_185 {
+    font-size: 40px;
+    color: #0c122c;
+    margin-right: 9px;
+}

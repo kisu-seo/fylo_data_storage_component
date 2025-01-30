@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo data storage component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Fylo data storage component</title>
+
 </head>
+
 <body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container_one">
+    <div class="image__container">
+      <img src="./images/logo.svg" alt="logo" class="logo">
+      <div class="icon__container">
+        <div class="icon__container-document">
+          <img src="./images/icon-document.svg" alt="document" class="icon">
+        </div>
+        <div class="icon__container-folder">
+          <img src="./images/icon-folder.svg" alt="folder" class="icon">
+        </div>
+        <div class="icon__container-upload">
+          <img src="./images/icon-upload.svg" alt="upload" class="icon">
+        </div>
+      </div>
+    </div>
   </div>
+
+  <div class="container_two">
+    <div class="text__container">
+      <p class="text__container-title">You’ve used <span class="bold">815 GB</span> of your storage</p>
+      <div class="gage_container">
+        <div class="gage_container-line">
+          <div class="gage_container-line-circle"></div>
+        </div>
+      </div>
+      <div class="subtitle__container">
+        <p class="text__container-subtitle bold">0 GB</p>
+        <p class="text__container-subtitle bold">1000 GB</p>
+      </div>
+    </div>
+    <div class="container_three">
+      <p class="bold"><span class="span_185">185</span> GB Left</p>
+    </div>
+  </div>
+
+
+
 </body>
+
 </html>
