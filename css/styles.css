@@ -183,17 +183,17 @@ body {
 
   .container_three {
     position: absolute;
-    top: 30%;
-    right: 10%;
+    top: 38%;
+    right: 21%;
   }
 
   .container_three::after {
     content: "";
     position: absolute;
-    bottom: -39px;
+    bottom: -20px;
     right: 0px;
-    width: 46px;
-    height: 46px;
-    background: linear-gradient(45deg, #ff4a95 50%, #ffffff 50%);
+    width: 43px;
+    height: 43px;
+    background: linear-gradient(45deg, transparent 50%, #ffffff 50%);
   }
 }
